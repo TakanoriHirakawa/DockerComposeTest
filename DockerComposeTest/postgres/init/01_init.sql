@@ -1,0 +1,9 @@
+CREATE DATABASE productDB;
+
+DROP TABLE IF EXISTS products;
+CREATE TABLE products(
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255),
+    price DOUBLE PRECISION,
+    qty INTEGER
+);
